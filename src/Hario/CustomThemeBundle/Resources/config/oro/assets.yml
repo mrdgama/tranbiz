@@ -1,0 +1,4 @@
+assets:
+  css:
+    frontend:
+      - bundles/hariocustomtheme/themes/customtheme/css/styles.css

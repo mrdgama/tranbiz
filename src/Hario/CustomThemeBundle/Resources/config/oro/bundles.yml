@@ -1,0 +1,2 @@
+bundles:
+    - { name: Hario\CustomThemeBundle\HarioCustomThemeBundle, priority: 10 }

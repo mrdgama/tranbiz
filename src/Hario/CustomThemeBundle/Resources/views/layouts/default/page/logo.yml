@@ -1,0 +1,5 @@
+layout:
+    actions:
+        - '@setBlockTheme':
+            themes: '@HarioCustomThemeBundle/Resources/views/layouts/default/page/logo.html.twig'
+

@@ -1,0 +1,20 @@
+config:
+    shim:
+        'jquery-ui':
+            deps:
+                - 'jquery'
+        'underscore':
+            exports: '_'
+        'backbone':
+            deps:
+                - 'underscore'
+                - 'jquery'
+            exports: 'Backbone'
+    paths:
+        'jquery-ui': 'bundles/oroui/lib/jquery-ui.js'
+        'bootstrap': 'bundles/oroui/lib/bootstrap.js'
+        'hariocustomtheme/themes/customtheme/js/jquery-3.2.1.min.js': 'bundles/hariocustomtheme/themes/customtheme/js/jquery-3.2.1.min.js'
+        'hariocustomtheme/themes/customtheme/js/rio.js': 'bundles/hariocustomtheme/themes/customtheme/js/rio.js'
+        'hariocustomtheme/themes/customtheme/js/app/modules/my-module': 'bundles/hariocustomtheme/themes/customtheme/js/app/modules/my-module.js'
+    appmodules:
+        - hariocustomtheme/themes/customtheme/js/app/modules/my-module
